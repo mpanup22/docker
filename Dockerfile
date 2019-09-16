@@ -5,4 +5,4 @@ From tomcat:8-jre8
 #MAINTAINER "xxx <xxx@gmail.com">
 
 # Copy to images tomcat path
-ADD /var/lib/jenkins/workspace/ppaaaa/gameoflife-web/target/gameoflife.war /usr/local/tomcat/webapps/
+ADD gameoflife.war /usr/local/tomcat/webapps/
